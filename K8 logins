@@ -42,3 +42,13 @@ metadata:
 
 
 kubectl apply -f <yaml>
+
+kubens
+https://github.com/ahmetb/kubectx
+
+git clone https://github.com/ahmetb/kubectx /opt/kubectx
+sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
+
+k9s
+curl -sS https://webinstall.dev/k9s | bash
+
