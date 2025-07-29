@@ -44,11 +44,26 @@ metadata:
 kubectl apply -f <yaml>
 
 kubens
+=======
 https://github.com/ahmetb/kubectx
 
 git clone https://github.com/ahmetb/kubectx /opt/kubectx
 sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
 
 k9s
+=====
 curl -sS https://webinstall.dev/k9s | bash
+
+kubectl apply -k "github.com/kubernetes-sigs/aws-ebs-csi-driver/deploy/kubernetes/overlays/stable/?ref=release-1.43"
+
+PV
+====
+K8 resource, It is the physical representation of the volume...
+PVC
+====
+it is claiming resource of the storage i.e PV
+
+you can create labels to the nodes, use those labels as node selectors inside pod
+
+https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes/
 
