@@ -69,3 +69,13 @@ you can create labels to the nodes, use those labels as node selectors inside po
 
 https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes/
 
+EFS static provisioning
+=======================
+1. Install drivers
+2. Give permissions to nodes, EFSCSIDriverPolicy
+3. create EFS volume
+4. Allow port no 2049 in EFS SG from EC2 SG
+5. Create PV, PVC and mount to pod
+kubectl kustomize \
+    "github.com/kubernetes-sigs/aws-efs-csi-driver/deploy/kubernetes/overlays/stable/ecr/?ref=release-2.1" > private-ecr-driver.yaml
+
