@@ -1,10 +1,10 @@
-#Git --- Version control 
+# Git --- Version control 
 		1.0,1.1,1.2 ...... ---> It will handle
 		
 		
-Pull request and approval and conflicts and finally pushing the dosa types to Git
+* Pull request and approval and conflicts and finally pushing the dosa types to Git
 
-#Git Reset : ---> Reset the changes back
+# Git Reset : ---> Reset the changes back
 					|		|		|
 				Soft 		Mixed 	Hard
 			
@@ -14,11 +14,11 @@ Pull request and approval and conflicts and finally pushing the dosa types to Gi
 			
 		Workspace ---> staging area ---> local repo ---> remote repo
 		
-		*Soft ---> local repo <---> satging repo
-		*Mixed ---> local repo <---> workspace
-		*Hard ---> Max we won't use because of date loss and uncommited changes.
+		* Soft ---> local repo <---> satging repo
+		* Mixed ---> local repo <---> workspace
+		* Hard ---> Max we won't use because of date loss and uncommited changes.
 		
-#Git reset/revert :
+# Git reset/revert :
 		reset ---> Undo the changes before you commit to remote
 		revert ---> undo the changes you already commited
 		
@@ -27,13 +27,13 @@ Pull request and approval and conflicts and finally pushing the dosa types to Gi
 		git reset --hard HEAD~3
 		
 
-#Git squash :
+# Git squash :
 		--> Used to combine multiple commits into a single
 		--> History cache less
 		--> Branch merging
 		--> Interactive rebase ---> git rebase -i HEAD~N N=1,2,3....
 
-#Git stash :
+# Git stash :
 		--> Temporarily save uncomitted changes in your workking directory 
 		-->Switching branches or perform other tasks without committing incomplete works.
 				--> Saving changes
@@ -41,7 +41,7 @@ Pull request and approval and conflicts and finally pushing the dosa types to Gi
 				--> Applying stashes
 				--> Managing stashes
 				
-#Git Cherry-pick : 
+# Git Cherry-pick : 
 		---> To selected one we can apply
 		---> Applying Hotfixes
 		---> Copying specific features
