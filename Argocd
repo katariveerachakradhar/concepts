@@ -1,3 +1,8 @@
+ArgoCD is a deployment tool to deploy applications into kubernetes as well as to manage the cluster
+
+1. Maintan/manage the cluster
+2. Deploy/manage applications
+
 kubectl create namespace argocd
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}'
