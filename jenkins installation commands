@@ -9,3 +9,5 @@ sudo yum install fontconfig java-21-openjdk jenkins -y
 sudo systemctl daemon-reload
 sudo systemctl start jenkins
 sudo systemctl enable jenkins
+
+After this take public ip of the server and add :8080 and try to login in wed
