@@ -82,4 +82,9 @@ SonarQube Quality Gates
 
 🛡️ Vulnerabilities What it means: Parts of the code that could be exploited by attackers.
 
-Bugs = runtime errors. Code Smells = maintainability issues. Coverage = test percentage. Issues = all detected problems. Maintainability Rating = ease of maintaining code. Security Rating = safety from attacks. Vulnerabilities = exploitable weaknesses.
+
+Bugs = runtime errors. Code Smells = maintainability issues. 
+Coverage = test percentage. Issues = all detected problems. 
+Maintainability Rating = ease of maintaining code. 
+Security Rating = safety from attacks. 
+Vulnerabilities = exploitable weaknesses.
