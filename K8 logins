@@ -71,6 +71,7 @@ https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes/
 
 EFS static provisioning
 =======================
+
 1. Install drivers
 2. Give permissions to nodes, EFSCSIDriverPolicy
 3. create EFS volume
