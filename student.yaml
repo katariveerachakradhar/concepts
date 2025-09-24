@@ -4,7 +4,7 @@
   addresses: # list of addresses
   - type: perm
     doorNo: 143
-    street: gandhiNagar
+    street: -----
   - type: current
     doorNo: 143
     street: gandhiNagar
@@ -19,4 +19,4 @@
     street: gandhiNagar
   - type: current
     doorNo: 143
-    street: gandhiNagar
+    street: -----
