@@ -19,5 +19,6 @@ argocd admin initial-password -n argocd
 
 
 everything in argocd is called as application.
+
 1. source
-2. destination
+2. destination 
