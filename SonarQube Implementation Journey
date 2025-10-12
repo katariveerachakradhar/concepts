@@ -64,9 +64,6 @@ Collaboration with developers, ensuring code quality culture.
 
 Security and maintainability improvements in large-scale codebases.
 
-
-
-
 SonarQube Quality Gates
 🔴 Bugs What it means: Definite coding errors that will cause the program to behave incorrectly at runtime.
 
@@ -81,7 +78,6 @@ SonarQube Quality Gates
 🔐 Security Rating What it means: Grade (A–E) for how secure the code is.
 
 🛡️ Vulnerabilities What it means: Parts of the code that could be exploited by attackers.
-
 
 Bugs = runtime errors. Code Smells = maintainability issues. 
 Coverage = test percentage. Issues = all detected problems. 
