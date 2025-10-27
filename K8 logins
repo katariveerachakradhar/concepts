@@ -1,6 +1,5 @@
 This is for installing eksctl and kubectl
 ==========================================
-
 ARCH=amd64
 PLATFORM=$(uname -s)_$ARCH
 curl -sLO "https://github.com/eksctl-io/eksctl/releases/latest/download/eksctl_$PLATFORM.tar.gz"
@@ -71,7 +70,6 @@ https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes/
 
 EFS static provisioning
 =======================
-
 1. Install drivers
 2. Give permissions to nodes, EFSCSIDriverPolicy
 3. create EFS volume
