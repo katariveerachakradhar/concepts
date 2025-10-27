@@ -16,6 +16,7 @@ Plugins:
 Restart Jenkins once plugins are installed
 
 ### Manage Credentials:
+
 * We need to add ssh credentials for Jenkins to connect to agent. I am using ID as ssh-auth.
 * We need to add aws credentials for Jenkins to connect with AWS for deployments. I am using
     * aws-creds
