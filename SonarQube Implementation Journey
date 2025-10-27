@@ -65,6 +65,7 @@ Collaboration with developers, ensuring code quality culture.
 Security and maintainability improvements in large-scale codebases.
 
 SonarQube Quality Gates
+
 🔴 Bugs What it means: Definite coding errors that will cause the program to behave incorrectly at runtime.
 
 🟠 Code Smells What it means: Not actual errors, but poor coding practices that make code hard to maintain or read.
