@@ -1,5 +1,6 @@
 YAML file
 ---------
+
 - firstname: sivakumar
   lastname: m
   email: info@joindevops.com
@@ -10,6 +11,7 @@ YAML file
   - type: current
     doorNo: 143
     street: gandhiNagar
+
 
 - firstname: sivakumar
   lastname: m
